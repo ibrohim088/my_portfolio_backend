@@ -1,4 +1,4 @@
-import Certificate from '../schema/Certificate.js'
+import { Certificate } from '../config/db.js'
 
 const getCertificates = async (req, res) => {
   try {
